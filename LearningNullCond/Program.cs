@@ -12,10 +12,12 @@ namespace LearningNullCond
         static void Main(string[] args)
         {
 
-            Person person= null; //new Person()  { Name = "Tim" };//what if this was null
+            //Person person= null; new Person()  { Name = "Tim" };//what if this was null
+            Person person = new Person()  { Name = "Tim" };//what if this was null
+
             //manual null check 
-            if(person != null)
-            Console.WriteLine(person?.Name);
+            if (person != null)
+            Console.WriteLine(person?.Name.Length);
             //up next, finish code for tomorrow
         }
     }
