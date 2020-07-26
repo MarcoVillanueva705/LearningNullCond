@@ -16,7 +16,7 @@ namespace LearningNullCond
             //manual null check 
             if(person != null)
             Console.WriteLine(person?.Name);
-            //up next
+            //up next, finish code for tomorrow
         }
     }
 }
